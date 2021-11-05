@@ -1,7 +1,7 @@
-package com.github.inposa.formes.tests;
+package com.github.inposa.formes.cercles.tests;
 
-import com.github.inposa.formes.entities.Cercle;
-import com.github.inposa.formes.utils.CercleFactory;
+import com.github.inposa.formes.cercles.entities.Cercle;
+import com.github.inposa.formes.cercles.utils.CercleFactory;
 
 public class TestCercle {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.github.inposa.formes.entities;
+package com.github.inposa.formes.cercles.entities;
 
 public class Cercle {
     private double rayon;

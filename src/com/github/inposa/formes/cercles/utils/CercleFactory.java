@@ -1,6 +1,6 @@
-package com.github.inposa.formes.utils;
+package com.github.inposa.formes.cercles.utils;
 
-import com.github.inposa.formes.entities.Cercle;
+import com.github.inposa.formes.cercles.entities.Cercle;
 
 public class CercleFactory {
 
