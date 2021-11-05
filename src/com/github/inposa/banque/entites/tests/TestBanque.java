@@ -1,4 +1,4 @@
-package com.github.inposa.banque.entites.test;
+package com.github.inposa.banque.entites.tests;
 
 import com.github.inposa.banque.entites.Compte;
 import com.github.inposa.banque.entites.CompteTaux;

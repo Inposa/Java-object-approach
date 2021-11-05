@@ -1,4 +1,4 @@
-package com.github.inposa.utils;
+package com.github.inposa.adresses.entites.utils;
 
 import java.util.Random;
 

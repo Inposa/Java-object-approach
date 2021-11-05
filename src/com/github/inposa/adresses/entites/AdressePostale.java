@@ -1,4 +1,4 @@
-package com.github.inposa.entites;
+package com.github.inposa.adresses.entites;
 
 public class AdressePostale {
     private int numeroRue;
