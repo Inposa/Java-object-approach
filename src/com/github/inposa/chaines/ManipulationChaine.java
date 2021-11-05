@@ -27,8 +27,8 @@ public class ManipulationChaine {
         String[] chaineSplit = chaine1.split(";");
         System.out.println("Chaine splitée : " + Arrays.toString(chaineSplit));
 
-        Salarie salarié = new Salarie(chaineSplit[0], chaineSplit[1], Float.parseFloat(chaineSplit[2]));
-        System.out.println(salarié.toString());
+        Salarie salarie = new Salarie(chaineSplit[0], chaineSplit[1], Float.parseFloat(chaineSplit[2]));
+        System.out.println(salarie.toString());
 
     }
 }
