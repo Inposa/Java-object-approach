@@ -9,8 +9,11 @@ public class TestPersonne {
         Personne personne1 = new Personne("Hippo", "Pech", adresse1);
         Personne personne2 = new Personne("Léo", "Sol", adresse2);
 
+        Personne personne3 = new Personne("Michel", "Pech");
+
         System.out.println(personne1.toString());
         System.out.println(personne2.toString());
+        System.out.println(personne3.toString());
 
     }
 }

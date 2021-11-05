@@ -13,6 +13,10 @@ public class AdressePostale {
         this.nomVille = nomVille;
     }
 
+    public AdressePostale() {
+        //this(0, "", 0, "");
+    }
+
     @Override
     public String toString() {
         return "numeroRue={" + numeroRue +

@@ -11,6 +11,10 @@ public class Personne {
         this.adressePostale = adressePostale;
     }
 
+    public Personne(String firstname, String lastname) {
+        this(firstname, lastname, new AdressePostale());
+    }
+
     @Override
     public String toString() {
         return "Personne[" +
