@@ -1,4 +1,4 @@
-package com.github.inposa.banque;
+package com.github.inposa.banque.entites.test;
 
 import com.github.inposa.banque.entites.Credit;
 import com.github.inposa.banque.entites.Debit;
