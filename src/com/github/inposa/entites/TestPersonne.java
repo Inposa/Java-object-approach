@@ -15,5 +15,7 @@ public class TestPersonne {
         System.out.println(personne2.toString());
         System.out.println(personne3.toString());
 
+        personne3.setAdressePostale(adresse1);
+        System.out.println(personne3.toString());
     }
 }

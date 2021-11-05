@@ -5,6 +5,9 @@ public class Personne {
     private String lastname;
     private AdressePostale adressePostale;
 
+    public Personne() {
+    }
+
     public Personne(String firstname, String lastname, AdressePostale adressePostale) {
         this.firstname = firstname;
         this.lastname = lastname;
@@ -22,5 +25,37 @@ public class Personne {
                 ", lastname='" + lastname + '\'' +
                 ", adressePostale=" + adressePostale.toString() +
                 ']';
+    }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public AdressePostale getAdressePostale() {
+        return adressePostale;
+    }
+
+    public void setAdressePostale(AdressePostale adressePostale) {
+        this.adressePostale = adressePostale;
+    }
+
+    public String getNamesCapital() {
+        return firstname.toUpperCase() + " " + lastname.toUpperCase();
+    }
+
+    public void displayNamesCapital() {
+        System.out.println(this.getNamesCapital());
     }
 }
