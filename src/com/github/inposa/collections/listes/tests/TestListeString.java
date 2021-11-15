@@ -1,4 +1,4 @@
-package com.github.inposa.listes.tests;
+package com.github.inposa.collections.listes.tests;
 
 import java.util.ArrayList;
 import java.util.Iterator;

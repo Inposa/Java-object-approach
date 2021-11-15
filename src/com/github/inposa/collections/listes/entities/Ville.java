@@ -1,4 +1,4 @@
-package com.github.inposa.listes.entities;
+package com.github.inposa.collections.listes.entities;
 
 public class Ville {
     private String nom;

@@ -1,11 +1,9 @@
-package com.github.inposa.listes.tests;
+package com.github.inposa.collections.listes.tests;
 
-import com.github.inposa.listes.entities.Ville;
+import com.github.inposa.collections.listes.entities.Ville;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Locale;
 
 public class TestVille {
     public static void main(String[] args) {
