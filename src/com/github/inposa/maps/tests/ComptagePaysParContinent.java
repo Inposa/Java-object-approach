@@ -10,7 +10,7 @@ import java.util.List;
 
 public class ComptagePaysParContinent {
     public static void main(String[] args) {
-        List<Pays> paysList = new ArrayList<Pays>();
+        List<Pays> paysList = new ArrayList<>();
 
         Collections.addAll(paysList,
                 new Pays("France", 65_000_000, Continent.Europe),
@@ -22,7 +22,7 @@ public class ComptagePaysParContinent {
                 new Pays("Australie", 20_000_000, Continent.Oceanie)
         );
 
-        HashMap<Continent, Integer> comptageContinent = new HashMap<Continent, Integer>();
+        HashMap<Continent, Integer> comptageContinent = new HashMap<>();
         comptageContinent.put(Continent.Europe, 0);
         comptageContinent.put(Continent.Asie, 0);
         comptageContinent.put(Continent.Oceanie, 0);
