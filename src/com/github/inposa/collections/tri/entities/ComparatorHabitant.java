@@ -1,4 +1,4 @@
-package com.github.inposa.tri.entities;
+package com.github.inposa.collections.tri.entities;
 
 import java.util.Comparator;
 

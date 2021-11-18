@@ -1,8 +1,8 @@
-package com.github.inposa.tri.tests;
+package com.github.inposa.collections.tri.tests;
 
-import com.github.inposa.tri.entities.ComparatorHabitant;
-import com.github.inposa.tri.entities.ComparatorNom;
-import com.github.inposa.tri.entities.Ville;
+import com.github.inposa.collections.tri.entities.ComparatorHabitant;
+import com.github.inposa.collections.tri.entities.ComparatorNom;
+import com.github.inposa.collections.tri.entities.Ville;
 
 import java.util.ArrayList;
 import java.util.Collections;

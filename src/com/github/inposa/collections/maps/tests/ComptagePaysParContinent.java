@@ -1,7 +1,7 @@
-package com.github.inposa.maps.tests;
+package com.github.inposa.collections.maps.tests;
 
-import com.github.inposa.maps.entities.Continent;
-import com.github.inposa.maps.entities.Pays;
+import com.github.inposa.collections.maps.entities.Continent;
+import com.github.inposa.collections.maps.entities.Pays;
 
 import java.util.ArrayList;
 import java.util.Collections;

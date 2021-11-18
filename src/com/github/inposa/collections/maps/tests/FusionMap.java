@@ -1,4 +1,4 @@
-package com.github.inposa.maps.tests;
+package com.github.inposa.collections.maps.tests;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package com.github.inposa.tri.entities;
+package com.github.inposa.collections.tri.entities;
 
 public class Ville implements Comparable<Ville> {
 

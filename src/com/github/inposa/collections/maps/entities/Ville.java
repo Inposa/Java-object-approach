@@ -1,4 +1,4 @@
-package com.github.inposa.maps.entities;
+package com.github.inposa.collections.maps.entities;
 
 public class Ville implements Comparable<Ville> {
 

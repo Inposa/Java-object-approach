@@ -1,6 +1,6 @@
-package com.github.inposa.maps.tests;
+package com.github.inposa.collections.maps.tests;
 
-import com.github.inposa.maps.entities.Ville;
+import com.github.inposa.collections.maps.entities.Ville;
 
 import java.util.HashMap;
 import java.util.Iterator;
