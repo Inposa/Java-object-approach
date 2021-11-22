@@ -1,6 +1,6 @@
-package com.github.inposa.chaines;
+package com.github.inposa.chaines.manipulation;
 
-import com.github.inposa.chaines.entites.Salarie;
+import com.github.inposa.chaines.manipulation.entites.Salarie;
 
 import java.util.Arrays;
 

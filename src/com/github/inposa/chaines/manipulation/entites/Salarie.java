@@ -1,4 +1,4 @@
-package com.github.inposa.chaines.entites;
+package com.github.inposa.chaines.manipulation.entites;
 
 public class Salarie {
     private String firstname;
