@@ -1,6 +1,4 @@
-package com.github.inposa.collections.listes.entities;
-
-import java.util.Objects;
+package com.github.inposa.equals.entities;
 
 public class Ville {
     private String nom;
@@ -32,5 +30,16 @@ public class Ville {
         return '[' + nom + '\'' +
                 "," + nbHabitants +
                 ']';
+    }
+
+    //Checker si les deux instances possèdent toutes les deux les mêmes attributs même si elles n'ont pas le
+    //même hashcode.
+    @Override
+    public boolean equals(Object object) {
+        if (!(object instanceof Ville)) {
+            return false;
+        }
+        Ville other = (Ville) object;
+        return (this.nom.equals((other.getNom()))) && (this.nbHabitants == other.getNbHabitants());
     }
 }
